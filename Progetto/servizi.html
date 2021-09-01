@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hotel Rinascente  </title>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML,Hotel,Suites,Roma">
+<meta name="description" content="Sito dell'hotel Rinascente a Roma">
+<meta name="author" content="Giulia Mercurio">
+<link rel="stylesheet" type="text/css" href="progetto.css">
+</head>
+
+<body>
+  <div class='topnav'>
+  <a href='index.html' > Home </a>
+  <a href='suites.html'> Le nostre Suites </a>
+  <a href='servizi.html'> I nostri servizi </a>
+  <a href='contatti.html'> Contattaci </a>
+</div>
+
+<section>
+  <header>
+    <h3> I nostri servizi </h3>
+    </header>
+        <p> L'Hotel Rinascente offre agli ospiti una vasta gamma di servizi legati al comfort e al lusso.
+           Che siate in viaggio d'affari o di piacere, il nostro team saprà supportarvi con esperienza e professionalità. </p>
+          <ul>
+            <li> Reception aperta 24h tutti i giorni</li>
+            <li> Colazione a buffet dalle 7.30 alle 11.30 </li>
+            <li> Servizio in camera </li>
+            <li> Wifi gratuito</li>
+          </ul>
+          <p> Possibilità di organizzare: </p>
+          <ul>
+            <li> Suite Romantica </li>
+            <li> Servizio navetta da/per aeroporti Fiumicino/Ciampino e porto di Civitavecchia </li>
+            <li> Noleggio auto/scooter </li>
+            <li> Tour guidati </li>
+          </ul>
+        </section>
+
+<div id='info'>
+  <button onclick="Change()">Contattaci</button>
+</div>
+
+
+<div class="img-servizi">
+  <img src='Immagini/Hotel3.jpg' alt= 'Servizio' width="400" height="300"> </img>
+  <img src='Immagini/ncc.jpg' alt= 'Ncc' width="400" height="300"> </img>
+  </div>
+
+
+<footer>
+<div id="copyright">  ©2018 Design by Giulia Mercurio </div>
+</footer>
+
+
+</body>
+
+<script>
+function Change() {
+var txt;
+if (confirm("Vuoi maggiori informazioni?")) {
+txt = "Scrivici a: hotelrinascente@booking.it o chiama lo 062276381";
+} else {
+    txt = "Non esitare a contattarci per qualsiasi dubbio o informazione!";
+  }
+document.getElementById("info").innerHTML = txt;
+}
+
+
+</script>
+
+</html>

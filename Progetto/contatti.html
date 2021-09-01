@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hotel Rinascente  </title>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML,Hotel,Suites,Roma">
+<meta name="description" content="Sito dell'hotel Rinascente a Roma">
+<meta name="author" content="Giulia Mercurio">
+<link rel="stylesheet" type="text/css" href="progetto.css">
+</head>
+
+<body>
+  <div class='topnav'>
+  <a href='index.html' > Home </a>
+  <a href='suites.html'> Le nostre Suites </a>
+  <a href='servizi.html'> I nostri servizi </a>
+  <a href='contatti.html'> Contattaci </a>
+</div>
+
+<section>
+  <header>
+    <h3> Contattaci </h3>
+  </header>
+  <p> Contattaci al numero: 062276381 <br>
+    o inviaci un'email a <a href="mailto:indirizzo@email.com">hotelrinascente@booking.com</a> <br>
+    Ci trovi in Via Verdi, 25 <br>
+    00189 - Roma <br>
+    P.I. 025548763111
+  </p>
+    </section>
+
+    <div class="img-contatti">
+      <img src='Immagini/roma5.png' alt= 'Roma' width="300" height="300"> </img>
+    <img src='Immagini/roma4.png' alt= 'Roma' width="300" height="300"> </img>
+    <img src='Immagini/roma6.png' alt= 'Roma' width="300" height="300"> </img>
+    <img src='Immagini/roma7.png' alt= 'Roma' width="300" height="300"> </img>
+    </div>
+
+
+<div class="contatti">
+  <h3> Richiesta Informazioni </h3>
+  <p>Compila il seguente modulo per richiedere maggiori informazioni.</p>
+  <form name="FormContatti" method="post" action="/action_page.php">
+    <fieldset>
+
+  <label for="name">Nome *</label>
+  <input type="text" name="nome" id="nome" title="Name" maxlength="60"><br>
+
+  <label for="cognome">Cognome</label>
+  <input type="text" name="cognome" id="cognome" title="Cognome" maxlength="60" ><br>
+
+  <label>E-mail *</label>
+<input type="text" name="email" id="email" placeholder="mario@rossi.it"><br>
+
+<label>Le vostre richieste</label>
+<textarea name="info" id="comment" title="Comment" cols="30" rows="7" maxlength="300" placeholder="" required>
+</textarea><br>
+
+<input type="submit" value="Invia">
+</fieldset>
+</form>
+</div>
+
+
+<footer>
+<div id="copyright">  ©2018 Design by Giulia Mercurio </div>
+</footer>
+
+  </body>
+  </html>
